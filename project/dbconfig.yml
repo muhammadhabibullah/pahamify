@@ -1,0 +1,9 @@
+development:
+  dialect: mysql
+  datasource: user:password@tcp(127.0.0.1:3306)/pokemon?charset=utf8&parseTime=True
+  dir: migration
+
+docker:
+  dialect: mysql
+  datasource: user:password@tcp(172.19.0.1:3309)/pokemon?charset=utf8&parseTime=True
+  dir: migration
